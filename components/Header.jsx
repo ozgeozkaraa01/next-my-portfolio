@@ -13,22 +13,22 @@ const Header = () => {
       >
         <SocialIcon
           url="https://github.com/ozgeozkaraa01"
-          fgColor="#111827"
+          fgColor="#d1d5db"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://www.linkedin.com/in/ozgenur-ozkara/"
-          fgColor="#111827"
+          fgColor="#d1d5db"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://dribbble.com/ozgeozkaraa01"
-          fgColor="#111827"
+          fgColor="#d1d5db"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://twitter.com/ozkaraozgee"
-          fgColor="#111827"
+          fgColor="#d1d5db"
           bgColor="transparent"
         />
       </motion.div>
