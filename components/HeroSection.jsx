@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import Circle from "./Circle";
 
 const HeroSection = () => {
   const [text] = useTypewriter({
@@ -17,6 +18,7 @@ const HeroSection = () => {
 
   return (
     <div className="h-screen flex flex-col items-center justify-center text-center space-y-8 overflow-hidden">
+      <Circle />
       <Image
         src="https://media.licdn.com/dms/image/D4D03AQFCbGuqUohg5w/profile-displayphoto-shrink_800_800/0/1671976917166?e=2147483647&v=beta&t=jqC4evYtmj4UJRpJosBclfifHwWjCLWKzyyDoiWFkuE"
         alt="image"
