@@ -49,6 +49,11 @@ const HeroSection = () => {
               uiverse
             </button>
           </Link>
+          <Link href="https://medium.com/@ozgenurozkara" target="_blank">
+            <button className="heroButton text-[#626974] hover:text-gray-300">
+              Medium
+            </button>
+          </Link>
         </div>
       </div>
     </div>
