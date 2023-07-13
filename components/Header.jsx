@@ -13,21 +13,25 @@ const Header = () => {
       >
         <SocialIcon
           url="https://github.com/ozgeozkaraa01"
+          target="_blank"
           fgColor="#d1d5db"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://www.linkedin.com/in/ozgenur-ozkara/"
+          target="_blank"
           fgColor="#d1d5db"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://dribbble.com/ozgeozkaraa01"
+          target="_blank"
           fgColor="#d1d5db"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://twitter.com/ozkaraozgee"
+          target="_blank"
           fgColor="#d1d5db"
           bgColor="transparent"
         />
