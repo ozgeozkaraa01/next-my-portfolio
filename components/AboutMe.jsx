@@ -12,14 +12,14 @@ const AboutMe = () => {
       <div className="space-y-10 px-0 md:px-10">
         <h3 className="text-3xl font-semibold text-gray-200">Özgenur Özkara</h3>
         <p className="text-gray-500">
-          "I'm a Front End Developer with over 1+ year of experience in
+          I am a Front End Developer with over 1+ year of experience in
           developing websites and software products. Throughout my experience, I
           have worked on projects using NextJS, Redux, and Tailwind CSS,
           improving my skills and broadening my knowledge. While my primary
           focus has been on development, I have discovered a passion for design
           along the way. As web projects progress, I notice that my perspective
           on aesthetics and user experience improves. I even share some of my
-          designs on Dribbble."
+          designs on Dribbble.
         </p>
       </div>
       <h2 className="absolute top-[100px] text-gray-200 text-3xl tracking-[5px]">
