@@ -13,8 +13,10 @@
     "eslint-config-next": "13.4.9",
     "framer-motion": "^10.12.18",
     "next": "13.4.9",
+    "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
     "react-simple-typewriter": "^5.0.1",
     "react-social-icons": "^5.15.0"
   },
