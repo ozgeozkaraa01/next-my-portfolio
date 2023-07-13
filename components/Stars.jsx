@@ -12,7 +12,7 @@ const Stars = () => {
       style={{ pointerEvents: "none" }}
     >
       <svg
-        className="absolute h-[10px] w-[10px] text-white"
+        className="absolute h-[25px] w-[25px] text-white"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="none"

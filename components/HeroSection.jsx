@@ -7,7 +7,7 @@ import Stars from "./Stars";
 
 const HeroSection = () => {
   const [text] = useTypewriter({
-    words: ["Hi, I'm Özgenur", "This is my portfolio"],
+    words: ["I'm Özgenur", "This is my portfolio"],
     loop: true,
     delaySpeed: 3000,
   });
@@ -18,7 +18,7 @@ const HeroSection = () => {
   });
 
   return (
-    <div className="h-full flex flex-col items-center justify-center text-center space-y-8 overflow-hidden">
+    <div className="h-screen flex flex-col items-center justify-center text-center space-y-8 overflow-hidden pt-10">
       <Circle />
       <Stars />
       <Image
@@ -34,9 +34,9 @@ const HeroSection = () => {
           {title}
           <Cursor cursorColor="#a3e635" />
         </h2>
-        <h1 className="text-4xl text-[#a3e635] lg:text-6xl font-semibold px-8">
+        <h1 className="text-3xl lg:text-6xl font-semibold px-8 text-center tracking-tight bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text p-2">
           <span>{text}</span>
-          <Cursor cursorColor="#a3e635" />
+          <Cursor cursorColor="#7e22ce" />
         </h1>
         <div className="pt-6 space-x-2">
           <Link href="#aboutme">

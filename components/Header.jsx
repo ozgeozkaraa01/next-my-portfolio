@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 const Header = () => {
   return (
-    <div className="sticky top-0 xl:p-6 p-3 flex items-center max-w-7xl mx-auto z-20">
+    <div className="top-0 xl:p-6 p-3 flex items-center max-w-7xl mx-auto">
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
