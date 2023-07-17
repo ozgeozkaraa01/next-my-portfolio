@@ -4,6 +4,11 @@
 - [Tailwind CSS](https://tailwindcss.com/)
 - Deployed with [Vercel](https://vercel.com/)
 
+## Visulation of the Website
+
+![image](/assets/bg-1.png)
+![image](/assets/bg-2.png)
+
 ## Getting Started
 
 First, clone—or download— the project to install the dependencies:

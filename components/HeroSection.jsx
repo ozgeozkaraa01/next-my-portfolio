@@ -38,7 +38,7 @@ const HeroSection = () => {
           <span>{text}</span>
           <Cursor cursorColor="#7e22ce" />
         </h1>
-        <div className="pt-6 space-x-2">
+        <div className="pt-6 space-x-1">
           <Link href="#aboutme">
             <button className="heroButton text-[#626974] hover:text-gray-300">
               About
