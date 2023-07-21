@@ -40,17 +40,17 @@ const HeroSection = () => {
         </h1>
         <div className="pt-6 space-x-1">
           <Link href="#aboutme">
-            <button className="heroButton text-[#626974] hover:text-gray-300">
+            <button className="heroButton text-[#626974] dark:hover:text-gray-300 hover:text-gray-600">
               About
             </button>
           </Link>
           <Link href="https://uiverse.io/profile/ozgeozkaraa01" target="_blank">
-            <button className="heroButton text-[#626974] hover:text-gray-300">
+            <button className="heroButton text-[#626974] dark:hover:text-gray-300 hover:text-gray-600">
               uiverse
             </button>
           </Link>
           <Link href="https://medium.com/@ozgenurozkara" target="_blank">
-            <button className="heroButton text-[#626974] hover:text-gray-300">
+            <button className="heroButton text-[#626974] dark:hover:text-gray-300 hover:text-gray-600">
               Medium
             </button>
           </Link>

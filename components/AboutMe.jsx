@@ -10,10 +10,10 @@ const AboutMe = () => {
       className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl items-center justify-evenly mx-auto px-10"
     >
       <div className="space-y-10 px-0 md:px-10">
-        <h3 className="xl:text-3xl text-xl font-semibold text-gray-200">
+        <h3 className="xl:text-3xl text-xl font-semibold dark:text-gray-200 text-indigo-800">
           Özgenur Özkara
         </h3>
-        <p className="text-gray-500">
+        <p className="text-gray-500 ">
           I am a Front End Developer with over 1+ year of experience in
           developing websites and software products. Throughout my experience, I
           have worked on projects using NextJS, Redux, and Tailwind CSS,
@@ -24,7 +24,7 @@ const AboutMe = () => {
           designs on Dribbble.
         </p>
       </div>
-      <h2 className="absolute top-[100px] text-gray-200 xl:text-3xl text-xl tracking-[5px] hidden xl:block">
+      <h2 className="absolute top-[100px] dark:text-gray-200 text-indigo-800 xl:text-3xl text-xl tracking-[5px] hidden xl:block">
         About Me
         <div className="h-px w-14 bg-gray-400"></div>
       </h2>
