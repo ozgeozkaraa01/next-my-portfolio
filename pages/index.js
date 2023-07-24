@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import AboutMe from "../components/AboutMe";
+import Bookmarks from "../components/Bookmarks";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
       <HeroSection />
       <section id="aboutme">
         <AboutMe />
+      </section>
+      <section id="bookmarks">
+        <Bookmarks />
       </section>
     </div>
   );
