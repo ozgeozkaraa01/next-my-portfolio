@@ -22,4 +22,27 @@ export const bookmarksData = [
     link: "clerk.com",
     url: "https://clerk.com/",
   },
+  {
+    img: "https://uiplaybook.dev/static/og.png",
+    title: "UI Playbook",
+    description: "The documented collection of UI components",
+    link: "uiplaybook.dev",
+    url: "https://uiplaybook.dev/",
+  },
+  {
+    img: "https://axios-cache-interceptor.js.org/preview.png",
+    title: "Axios Cache Interceptor",
+    description:
+      "Small and efficient cache interceptor for axios. Etag, Cache-Control, TLL, HTTP headers and more!",
+    link: "axios-cache-interceptor.js.org",
+    url: "https://axios-cache-interceptor.js.org/",
+  },
+  {
+    img: "https://uploads-ssl.webflow.com/5ea7fc450fe2ee12b924f695/63f1a4bc731066c857d55d0b_OpenGraph-min.png",
+    title: "Dark Mode Design 🌘 Handpicked website inspiration",
+    description:
+      "Dark Mode Design is a showcase of beautifully designed and inspiring dark mode websites. Dim the lights, lower your screen brightness, and enjoy.",
+    link: "darkmodedesign.com",
+    url: "https://www.darkmodedesign.com/",
+  },
 ];

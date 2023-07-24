@@ -6,7 +6,7 @@ const Bookmarks = () => {
   return (
     <div className="max-w-7xl h-screen mx-auto xl:p-0 p-1">
       <h2 className="text-lg">Bookmarks</h2>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-7 mt-10">
         {bookmarksData.map((item, index) => (
           <div key={index} className="flex">
             <Link
