@@ -1,11 +1,11 @@
 export const bookmarksData = [
   {
-    img: "https://chakra-templates.dev/favicon.png",
-    title: "Chakra Templates",
+    img: "https://chakra-ui.com/twitter-og-image.png",
+    title: "Chakra UI",
     description:
-      "A growing collection of hand-crafted & responsive Chakra UI templates ready to drop into your React project.",
-    link: "chakra-templates.dev",
-    url: "https://chakra-templates.dev/",
+      "A simple, modular and accessible component library that gives you the building blocks you need to build your React applications.",
+    link: "chakra-ui.com",
+    url: "https://chakra-ui.com/",
   },
   {
     img: "https://rdl.ink/render/https%3A%2F%2Fwww.logoshaper.co%2F",
