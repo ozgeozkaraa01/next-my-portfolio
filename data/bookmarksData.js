@@ -45,4 +45,26 @@ export const bookmarksData = [
     link: "darkmodedesign.com",
     url: "https://www.darkmodedesign.com/",
   },
+  {
+    img: "https://res.cloudinary.com/dmwfd0zhh/image/upload/v1611493446/colorsng/Group_30_dy68lg.png",
+    title: "Coloursng",
+    description: "Inspired by colors around you",
+    link: "coloursng.com",
+    url: "https://www.coloursng.com/",
+  },
+  {
+    img: "https://uxtools.co/img/default-share.png",
+    title: "UX Tools",
+    description:
+      "Learn user-first design with practical skills and tools so you can build better digital experiances",
+    link: "uxtools.co",
+    url: "https://uxtools.co/",
+  },
+  {
+    img: "https://up.raindrop.io/raindrop/thumbs/610/508/258/data_URI_file_1689856630664.jpeg",
+    title: "BaseLayer",
+    description: "Astro description",
+    link: "baselayer.dev",
+    url: "https://www.baselayer.dev/",
+  },
 ];
