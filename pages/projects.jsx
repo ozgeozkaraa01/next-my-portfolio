@@ -5,9 +5,9 @@ import NavProjects from "../components/NavProjects";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="w-screen h-screen">
       <NavProjects />
-      <div className="w-screen h-screen bg-slate-200">
+      <div className="bg-slate-200">
         <div className="flex flex-col justify-center px-8">
           <div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
             <div className="relative max-w-xl mx-auto">
