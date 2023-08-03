@@ -69,6 +69,9 @@ const Header = () => {
         <Link href="#bookmarks" className="underline">
           Bookmarks
         </Link>
+        <Link href="/projects" className="underline">
+          Projects
+        </Link>
       </div>
     </div>
   );
