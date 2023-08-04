@@ -8,6 +8,7 @@ const NavProjects = () => {
   const { theme, setTheme } = useTheme();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuOpen2, setIsMenuOpen2] = useState(false);
+  const [isLoading, setIsLoading] = useState(false); // Added loading state
 
   const handleMenuToggle = () => {
     setIsMenuOpen((prevState) => !prevState);
@@ -25,6 +26,15 @@ const NavProjects = () => {
     }
   };
 
+  const handleProjectsClick = () => {
+    setIsLoading(true); // Set loading state to true before reload
+    setTimeout(() => {
+      setIsLoading(false);
+      // Simulate a delay to show the loading effect (optional)
+      // window.location.reload();
+    }, 1500);
+  };
+
   return (
     <nav className="fixed top-0 left-0 w-full z-10">
       <div className="mx-auto px-2">
@@ -32,7 +42,7 @@ const NavProjects = () => {
           <div className="relative inline-block text-left">
             <button
               onClick={handleMenuToggle2}
-              className="group relative inline-flex items-center px-3 py-2 bg-gray-50 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700 dark:hover:text-white text-gray-400 rounded-lg text-base font-medium default-transition default-focus"
+              className="group relative inline-flex items-center px-3 py-2 border bg-gray-50 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700 dark:hover:text-white text-gray-400 rounded-lg text-base font-medium default-transition default-focus"
             >
               <HiMenuAlt1 />
             </button>
@@ -40,7 +50,7 @@ const NavProjects = () => {
           <div className="relative inline-block text-left">
             <button
               onClick={handleMenuToggle}
-              className="group relative inline-flex items-center px-3 py-2 bg-gray-50 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700 dark:hover:text-white text-gray-400 rounded-lg text-base font-medium default-transition default-focus"
+              className="group relative inline-flex items-center px-3 py-2 border bg-gray-50 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700 dark:hover:text-white text-gray-400 rounded-lg text-base font-medium default-transition default-focus"
             >
               <FiSettings />
             </button>
@@ -146,7 +156,8 @@ const NavProjects = () => {
                   <span className="flex-1"></span>
                 </Link>
                 <Link
-                  href="/"
+                  href="https://medium.com/@ozgenurozkara"
+                  target="_blank"
                   className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700 hover:bg-slate-200"
                 >
                   <svg
@@ -167,7 +178,8 @@ const NavProjects = () => {
                   <span className="flex-1"></span>
                 </Link>
                 <Link
-                  href="/"
+                  href="/projects"
+                  onClick={handleProjectsClick}
                   className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700 hover:bg-slate-200"
                 >
                   <svg
@@ -189,7 +201,8 @@ const NavProjects = () => {
                 </Link>
                 <hr className="mt-2 pb-2 border-gray-200 dark:border-gray-500" />
                 <Link
-                  href="/"
+                  href="https://twitter.com/ozkaraozgee"
+                  target="_blank"
                   className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700 hover:bg-slate-200"
                 >
                   <FiTwitter className="w-4 h-4" />
@@ -211,7 +224,8 @@ const NavProjects = () => {
                   </svg>
                 </Link>
                 <Link
-                  href="/"
+                  href="https://github.com/ozgeozkaraa01"
+                  target="_blank"
                   className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700 hover:bg-slate-200"
                 >
                   <FiGithub className="w-4 h-4" />
@@ -237,6 +251,17 @@ const NavProjects = () => {
           </div>
         )}
       </div>
+      {isLoading && (
+        <div className="fixed top-0 left-0 w-full h-1 bg-indigo-500">
+          <div
+            className="h-1 bg-white"
+            style={{
+              width: "100%",
+              animation: "loading 2s linear infinite",
+            }}
+          ></div>
+        </div>
+      )}
     </nav>
   );
 };

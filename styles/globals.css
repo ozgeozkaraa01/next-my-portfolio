@@ -7,3 +7,13 @@
     @apply px-6 py-2 border border-gray-400 rounded-full uppercase text-sm tracking-widest transition-all dark:hover:border-[#bef264] hover:border-[#6d28d9] hover:font-semibold;
   }
 }
+
+/* Custom loading animation */
+@keyframes loading {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
