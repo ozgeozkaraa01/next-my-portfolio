@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import { useTheme } from "next-themes";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { FiSettings, FiGithub, FiTwitter } from "react-icons/fi";
 import Link from "next/link";
 
 const NavProjects = () => {
+  const { theme, setTheme } = useTheme();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuOpen2, setIsMenuOpen2] = useState(false);
 
@@ -13,6 +15,14 @@ const NavProjects = () => {
 
   const handleMenuToggle2 = () => {
     setIsMenuOpen2((prevState) => !prevState);
+  };
+
+  const handleThemeToggle = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
   };
 
   return (
@@ -62,9 +72,9 @@ const NavProjects = () => {
                   <span className="flex-1"></span>
                 </Link>
                 <hr className="mt-2 pb-2 border-gray-200 " />
-                <Link
-                  href="/"
-                  className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700 hover:bg-slate-200"
+                <button
+                  onClick={handleThemeToggle}
+                  className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -82,10 +92,10 @@ const NavProjects = () => {
                   </svg>
                   <span>Light Theme</span>
                   <span className="flex-1"></span>
-                </Link>
-                <Link
-                  href="/"
-                  className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700 hover:bg-slate-200"
+                </button>
+                <button
+                  onClick={handleThemeToggle}
+                  className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +114,7 @@ const NavProjects = () => {
 
                   <span>Dark Theme</span>
                   <span className="flex-1"></span>
-                </Link>
+                </button>
               </div>
             </div>
           </div>

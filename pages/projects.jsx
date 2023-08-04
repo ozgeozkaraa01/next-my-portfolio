@@ -5,7 +5,7 @@ import NavProjects from "../components/NavProjects";
 
 const Projects = () => {
   return (
-    <div className="h-screen bg-slate-200 w-screen overflow-y-scroll">
+    <div className="h-screen antialiased bg-gradient-to-br from-white via-gray-100 to-white dark:from-black from-20% dark:via-gray-700 dark:to-black to-80% w-screen overflow-y-scroll">
       <NavProjects />
       <div className="flex flex-col justify-center px-8">
         <div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
