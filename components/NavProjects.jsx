@@ -32,7 +32,7 @@ const NavProjects = () => {
           <div className="relative inline-block text-left">
             <button
               onClick={handleMenuToggle2}
-              className="group relative inline-flex items-center px-3 py-2 bg-gray-50 hover:bg-gray-100 hover:text-gray-700 text-gray-400 rounded-lg text-base font-medium default-transition default-focus"
+              className="group relative inline-flex items-center px-3 py-2 bg-gray-50 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700 dark:hover:text-white text-gray-400 rounded-lg text-base font-medium default-transition default-focus"
             >
               <HiMenuAlt1 />
             </button>
@@ -40,7 +40,7 @@ const NavProjects = () => {
           <div className="relative inline-block text-left">
             <button
               onClick={handleMenuToggle}
-              className="group relative inline-flex items-center px-3 py-2 bg-gray-50 hover:bg-gray-100 hover:text-gray-700 text-gray-400 rounded-lg text-base font-medium default-transition default-focus"
+              className="group relative inline-flex items-center px-3 py-2 bg-gray-50 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700 dark:hover:text-white text-gray-400 rounded-lg text-base font-medium default-transition default-focus"
             >
               <FiSettings />
             </button>
@@ -48,7 +48,7 @@ const NavProjects = () => {
         </div>
         {isMenuOpen && (
           <div className="transform scale-100 opacity-100">
-            <div className="absolute w-[calc(100vw-1rem)] sm:w-56 mt-2 bg-gray-50 bg-opacity-75 backdrop-filter backdrop-blur-sm border border-gray-100 rounded-md shadow-lg divide-y divide-gray-100 focus:outline-none origin-top-right right-0">
+            <div className="absolute w-[calc(100vw-1rem)] sm:w-56 mt-2 bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop-filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-md shadow-lg divide-y divide-gray-100 dark:divide-gray-500 focus:outline-none origin-top-right right-0">
               <div className="py-2">
                 <Link
                   href="/"
@@ -71,7 +71,7 @@ const NavProjects = () => {
                   <span>Sounds On</span>
                   <span className="flex-1"></span>
                 </Link>
-                <hr className="mt-2 pb-2 border-gray-200 " />
+                <hr className="mt-2 pb-2 border-gray-200 dark:border-gray-500" />
                 <button
                   onClick={handleThemeToggle}
                   className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700"
@@ -121,7 +121,7 @@ const NavProjects = () => {
         )}
         {isMenuOpen2 && (
           <div className="transform scale-100 opacity-100">
-            <div className="absolute w-[calc(100vw-1rem)] sm:w-56 mt-2 bg-gray-50 bg-opacity-75 backdrop-filter backdrop-blur-sm border border-gray-100 rounded-md shadow-lg divide-y divide-gray-100 focus:outline-none origin-top-left left-0">
+            <div className="absolute w-[calc(100vw-1rem)] sm:w-56 mt-2 bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop-filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-md shadow-lg divide-y divide-gray-100 dark:divide-gray-500 focus:outline-none origin-top-left left-0">
               <div className="py-2">
                 {" "}
                 <Link
@@ -187,7 +187,7 @@ const NavProjects = () => {
                   <span>Projects</span>
                   <span className="flex-1"></span>
                 </Link>
-                <hr className="mt-2 pb-2 border-gray-200 " />
+                <hr className="mt-2 pb-2 border-gray-200 dark:border-gray-500" />
                 <Link
                   href="/"
                   className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700 hover:bg-slate-200"

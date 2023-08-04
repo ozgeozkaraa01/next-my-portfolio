@@ -18,15 +18,15 @@ const Projects = () => {
                   "--motion-translateY": "0px",
                 }}
               >
-                <li className="bg-gray-50 bg-opacity-75 backdrop:filter backdrop-blur-sm border border-gray-100 rounded-lg transition ease-in-out duration-300 cursor-pointer">
+                <li className="bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop:filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-lg transition ease-in-out duration-300 cursor-pointer">
                   <div className="flex flex-col sm:flex-row items-center justify-between px-4 py-4 sm:px-6">
                     <div className="flex flex-1 items-center justify-start w-full">
                       <span className="text-xl">🌿</span>
                       <div className="min-w-0 flex-1 px-4">
-                        <h1 className="text-gray-700 text-lg font-bold">
+                        <h1 className="text-gray-700 dark:text-white text-lg font-bold">
                           ozgenurozkara.vercel.app
                         </h1>
-                        <p className="flex items-center mt-1 text-gray-500 text-xs">
+                        <p className="flex items-center mt-1 text-gray-500 dark:text-gray-400 text-xs">
                           Personal Portfolio
                         </p>
                       </div>
@@ -35,7 +35,7 @@ const Projects = () => {
                       <Link
                         href="https://ozgenurozkara.vercel.app/"
                         target="_blank"
-                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-500 hover:text-gray-700 border border-gray-100 rounded-lg text-sm font-medium default:transition default:focus"
+                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 dark:bg-gray-900 dark:hover:bg-gray-700 text-gray-500 hover:text-gray-700 dark:hover:text-white border border-gray-100 dark:border-gray-500 rounded-lg text-sm font-medium default:transition default:focus"
                       >
                         <span className="sr-only">homepage</span>
                         <FiHome />
@@ -43,7 +43,7 @@ const Projects = () => {
                       <Link
                         href="https://github.com/ozgeozkaraa01/next-my-portfolio"
                         target="_blank"
-                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-500 hover:text-gray-700 border border-gray-100 rounded-lg text-sm font-medium default:transition default:focus"
+                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 dark:bg-gray-900 dark:hover:bg-gray-700 text-gray-500 hover:text-gray-700 dark:hover:text-white border border-gray-100 dark:border-gray-500 rounded-lg text-sm font-medium default:transition default:focus"
                       >
                         <span className="sr-only">GitHub Repository</span>
                         <FiGithub />
@@ -59,15 +59,15 @@ const Projects = () => {
                   "--motion-translateY": "0px",
                 }}
               >
-                <li className="bg-gray-50 bg-opacity-75 backdrop:filter backdrop-blur-sm border border-gray-100 rounded-lg transition ease-in-out duration-300 cursor-pointer">
+                <li className="bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop:filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-lg transition ease-in-out duration-300 cursor-pointer">
                   <div className="flex flex-col sm:flex-row items-center justify-between px-4 py-4 sm:px-6">
                     <div className="flex flex-1 items-center justify-start w-full">
                       <span className="text-xl">✨</span>
                       <div className="min-w-0 flex-1 px-4">
-                        <h1 className="text-gray-700 text-lg font-bold">
+                        <h1 className="text-gray-700 dark:text-white text-lg font-bold">
                           twitter-clone
                         </h1>
-                        <p className="flex items-center mt-1 text-gray-500 text-xs">
+                        <p className="flex items-center mt-1 text-gray-500 dark:text-gray-400 text-xs">
                           Twitter Clone using Next.js and Tailwind CSS
                         </p>
                       </div>
@@ -76,7 +76,7 @@ const Projects = () => {
                       <Link
                         href="https://next-twitter-clone-delta.vercel.app/"
                         target="_blank"
-                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-500 hover:text-gray-700 border border-gray-100 rounded-lg text-sm font-medium default:transition default:focus"
+                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 dark:bg-gray-900 dark:hover:bg-gray-700 text-gray-500 hover:text-gray-700 dark:hover:text-white border border-gray-100 dark:border-gray-500 rounded-lg text-sm font-medium default:transition default:focus"
                       >
                         <span className="sr-only">homepage</span>
                         <FiHome />
@@ -84,7 +84,7 @@ const Projects = () => {
                       <Link
                         href="https://github.com/ozgeozkaraa01/next-twitter-clone"
                         target="_blank"
-                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-500 hover:text-gray-700 border border-gray-100 rounded-lg text-sm font-medium default:transition default:focus"
+                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 dark:bg-gray-900 dark:hover:bg-gray-700 text-gray-500 hover:text-gray-700 dark:hover:text-white border border-gray-100 dark:border-gray-500 rounded-lg text-sm font-medium default:transition default:focus"
                       >
                         <span className="sr-only">GitHub Repository</span>
                         <FiGithub />
@@ -100,15 +100,15 @@ const Projects = () => {
                   "--motion-translateY": "0px",
                 }}
               >
-                <li className="bg-gray-50 bg-opacity-75 backdrop:filter backdrop-blur-sm border border-gray-100 rounded-lg transition ease-in-out duration-300 cursor-pointer">
+                <li className="bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop:filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-lg transition ease-in-out duration-300 cursor-pointer">
                   <div className="flex flex-col sm:flex-row items-center justify-between px-4 py-4 sm:px-6">
                     <div className="flex flex-1 items-center justify-start w-full">
                       <span className="text-xl">🩷</span>
                       <div className="min-w-0 flex-1 px-4">
-                        <h1 className="text-gray-700 text-lg font-bold">
+                        <h1 className="text-gray-700 dark:text-white text-lg font-bold">
                           advice-generator-app
                         </h1>
-                        <p className="flex items-center mt-1 text-gray-500 text-xs">
+                        <p className="flex items-center mt-1 text-gray-500 dark:text-gray-400 text-xs">
                           Advice Generator App using React.js
                         </p>
                       </div>
@@ -117,7 +117,7 @@ const Projects = () => {
                       <Link
                         href="https://advice-generetor-app.vercel.app/"
                         target="_blank"
-                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-500 hover:text-gray-700 border border-gray-100 rounded-lg text-sm font-medium default:transition default:focus"
+                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 dark:bg-gray-900 dark:hover:bg-gray-700 text-gray-500 hover:text-gray-700 dark:hover:text-white border border-gray-100 dark:border-gray-500 rounded-lg text-sm font-medium default:transition default:focus"
                       >
                         <span className="sr-only">homepage</span>
                         <FiHome />
@@ -125,7 +125,7 @@ const Projects = () => {
                       <Link
                         href="https://github.com/ozgeozkaraa01/advice-generetor-app"
                         target="_blank"
-                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-500 hover:text-gray-700 border border-gray-100 rounded-lg text-sm font-medium default:transition default:focus"
+                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 dark:bg-gray-900 dark:hover:bg-gray-700 text-gray-500 hover:text-gray-700 dark:hover:text-white border border-gray-100 dark:border-gray-500 rounded-lg text-sm font-medium default:transition default:focus"
                       >
                         <span className="sr-only">GitHub Repository</span>
                         <FiGithub />
@@ -141,15 +141,15 @@ const Projects = () => {
                   "--motion-translateY": "0px",
                 }}
               >
-                <li className="bg-gray-50 bg-opacity-75 backdrop:filter backdrop-blur-sm border border-gray-100 rounded-lg transition ease-in-out duration-300 cursor-pointer">
+                <li className="bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop:filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-lg transition ease-in-out duration-300 cursor-pointer">
                   <div className="flex flex-col sm:flex-row items-center justify-between px-4 py-4 sm:px-6">
                     <div className="flex flex-1 items-center justify-start w-full">
                       <span className="text-xl">🎊</span>
                       <div className="min-w-0 flex-1 px-4">
-                        <h1 className="text-gray-700 text-lg font-bold">
+                        <h1 className="text-gray-700 dark:text-white text-lg font-bold">
                           next-website
                         </h1>
-                        <p className="flex items-center mt-1 text-gray-500 text-xs">
+                        <p className="flex items-center mt-1 text-gray-500 dark:text-gray-400 text-xs">
                           Creating a Portfolio Website with Next JS, Tailwind
                           CSS and Framer Motion
                         </p>
@@ -159,7 +159,7 @@ const Projects = () => {
                       <Link
                         href="https://next-website-lemon-omega.vercel.app/"
                         target="_blank"
-                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-500 hover:text-gray-700 border border-gray-100 rounded-lg text-sm font-medium default:transition default:focus"
+                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 dark:bg-gray-900 dark:hover:bg-gray-700 text-gray-500 hover:text-gray-700 dark:hover:text-white border border-gray-100 dark:border-gray-500 rounded-lg text-sm font-medium default:transition default:focus"
                       >
                         <span className="sr-only">homepage</span>
                         <FiHome />
@@ -167,7 +167,7 @@ const Projects = () => {
                       <Link
                         href="https://github.com/ozgeozkaraa01/next-website"
                         target="_blank"
-                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-500 hover:text-gray-700 border border-gray-100 rounded-lg text-sm font-medium default:transition default:focus"
+                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 dark:bg-gray-900 dark:hover:bg-gray-700 text-gray-500 hover:text-gray-700 dark:hover:text-white border border-gray-100 dark:border-gray-500 rounded-lg text-sm font-medium default:transition default:focus"
                       >
                         <span className="sr-only">GitHub Repository</span>
                         <FiGithub />
@@ -183,15 +183,15 @@ const Projects = () => {
                   "--motion-translateY": "0px",
                 }}
               >
-                <li className="bg-gray-50 bg-opacity-75 backdrop:filter backdrop-blur-sm border border-gray-100 rounded-lg transition ease-in-out duration-300 cursor-pointer">
+                <li className="bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop:filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-lg transition ease-in-out duration-300 cursor-pointer">
                   <div className="flex flex-col sm:flex-row items-center justify-between px-4 py-4 sm:px-6">
                     <div className="flex flex-1 items-center justify-start w-full">
                       <span className="text-xl">🫧</span>
                       <div className="min-w-0 flex-1 px-4">
-                        <h1 className="text-gray-700 text-lg font-bold">
+                        <h1 className="text-gray-700 dark:text-white text-lg font-bold">
                           bookmark-frontend-mentor
                         </h1>
-                        <p className="flex items-center mt-1 text-gray-500 text-xs">
+                        <p className="flex items-center mt-1 text-gray-500 dark:text-gray-400 text-xs">
                           Frontend Mentor Challange
                         </p>
                       </div>
@@ -200,7 +200,7 @@ const Projects = () => {
                       <Link
                         href="https://bookmark-frontend-mentor.vercel.app/"
                         target="_blank"
-                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-500 hover:text-gray-700 border border-gray-100 rounded-lg text-sm font-medium default:transition default:focus"
+                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 dark:bg-gray-900 dark:hover:bg-gray-700 text-gray-500 hover:text-gray-700 dark:hover:text-white border border-gray-100 dark:border-gray-500 rounded-lg text-sm font-medium default:transition default:focus"
                       >
                         <span className="sr-only">homepage</span>
                         <FiHome />
@@ -208,7 +208,7 @@ const Projects = () => {
                       <Link
                         href="https://github.com/ozgeozkaraa01/bookmark-frontend-mentor"
                         target="_blank"
-                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 text-gray-500 hover:text-gray-700 border border-gray-100 rounded-lg text-sm font-medium default:transition default:focus"
+                        className="relative inline-flex justify-center w-full sm:w-10 h-10 px-3 py-2 bg-gray-50 hover:bg-gray-100 dark:bg-gray-900 dark:hover:bg-gray-700 text-gray-500 hover:text-gray-700 dark:hover:text-white border border-gray-100 dark:border-gray-500 rounded-lg text-sm font-medium default:transition default:focus"
                       >
                         <span className="sr-only">GitHub Repository</span>
                         <FiGithub />
