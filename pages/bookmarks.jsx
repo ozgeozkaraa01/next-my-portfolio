@@ -2,10 +2,12 @@ import React from "react";
 import { bookmarksData } from "../data/bookmarksData";
 import Link from "next/link";
 import NavProjects from "../components/NavProjects";
+import Stars from "../components/Stars";
 
 const Bookmarks = () => {
   return (
     <div className="min-h-screen w-screen bg-gray-100 dark:bg-gray-800">
+      <Stars />
       <NavProjects />
       <div className="max-w-7xl mx-auto xl:py-32 py-14 px-3">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 cursor-pointer">

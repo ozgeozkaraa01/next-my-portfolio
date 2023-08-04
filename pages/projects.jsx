@@ -3,10 +3,12 @@ import React from "react";
 import { FiGithub, FiHome } from "react-icons/fi";
 import NavProjects from "../components/NavProjects";
 import { projectsData } from "../data/projectsData";
+import Stars from "../components/Stars";
 
 const Projects = () => {
   return (
     <div className="h-screen antialiased bg-gradient-to-br from-lime-100 via-gray-100 to-white dark:from-black from-20% dark:via-gray-700 dark:to-black to-80% w-screen overflow-y-scroll">
+      <Stars />
       <NavProjects />
       <div className="flex flex-col justify-center px-8">
         <div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
