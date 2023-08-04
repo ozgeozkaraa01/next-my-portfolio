@@ -51,7 +51,7 @@ const Header = () => {
           )}
         </button>
       </div>
-      <div className="flex space-x-2">
+      <div className="flex space-x-2 items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
