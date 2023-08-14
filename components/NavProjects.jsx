@@ -19,13 +19,13 @@ const NavProjects = () => {
     setIsMenuOpen2((prevState) => !prevState);
   };
 
-  const handleThemeToggle = () => {
-    if (theme === "light") {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  };
+  // const handleThemeToggle = () => {
+  //   if (theme === "light") {
+  //     setTheme("dark");
+  //   } else {
+  //     setTheme("light");
+  //   }
+  // };
 
   const handleSoundToggle = () => {
     setIsSoundOn((prevState) => !prevState);
@@ -103,7 +103,8 @@ const NavProjects = () => {
                 </button>
                 <hr className="mt-2 pb-2 border-gray-200 dark:border-gray-500" />
                 <button
-                  onClick={handleThemeToggle}
+                  // onClick={handleThemeToggle}
+                  onClick={() => setTheme("light")}
                   className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700"
                 >
                   <svg
@@ -124,7 +125,8 @@ const NavProjects = () => {
                   <span className="flex-1"></span>
                 </button>
                 <button
-                  onClick={handleThemeToggle}
+                  // onClick={handleThemeToggle}
+                  onClick={() => setTheme("dark")}
                   className="flex items-center space-x-2 px-4 py-3 text-sm font-medium tracking-wide cursor-pointer default:transition text-gray-500 hover:text-gray-700"
                 >
                   <svg
