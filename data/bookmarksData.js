@@ -242,4 +242,13 @@ export const bookmarksData = [
     url: "https://www.bkmkitap.com/hizli-ve-yavas-dusunme?waw_keyword=h%C4%B1zl%C4%B1%20ve%20yava%C5%9F%20d%C3%BC%C5%9F%C3%BCnme",
     category: "Books",
   },
+  {
+    img: "https://www.landingfolio.com/_nuxt/img/main.e006d8b.png",
+    title: "The Best Landing Page Design Inspiration, Templates and More",
+    description:
+      "Looking for landing page inspiration? We've got you covered. Landingfolio features the best landing page designs, templates, component and more on the web. Get inspired by real landing page examples.",
+    link: "landingfolio.com",
+    url: "https://www.landingfolio.com/",
+    category: "Design",
+  },
 ];
