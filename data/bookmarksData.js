@@ -251,4 +251,13 @@ export const bookmarksData = [
     url: "https://www.landingfolio.com/",
     category: "Design",
   },
+  {
+    img: "https://s3-alpha.figma.com/hub/file/2603959525/8e909c88-4e83-4af4-b5b2-4a50a9b571f7-cover.png",
+    title: "Tailwind CSS Radix UI Components Showcase",
+    description:
+      "Explore a collection of interactive UI components and design elements built with Tailwind CSS and Radix UI. Discover how to create complex interfaces using these examples.",
+    link: "tailwindcss-radix.vercel.app",
+    url: "https://tailwindcss-radix.vercel.app/",
+    category: "Tailwind CSS",
+  },
 ];
