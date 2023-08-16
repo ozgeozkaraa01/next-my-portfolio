@@ -54,14 +54,11 @@ const NavProjects = () => {
     }, 1500);
   };
 
-  const handleOutsideClick = () => {
+  const menuRef = useRef(null);
+  useClickOutside(menuRef, () => {
     setIsMenuOpen(false);
     setIsMenuOpen2(false);
-  };
-
-  const menuRef = useRef(null);
-
-  useClickOutside(menuRef, handleOutsideClick);
+  });
 
   useEffect(() => {
     const handleClick = () => {
@@ -90,7 +87,8 @@ const NavProjects = () => {
               <HiMenuAlt1 />
             </button>
           </div>
-          <div className="relative inline-block text-left" ref={menuRef}>
+          {/* <div className="relative inline-block text-left" ref={menuRef}> */}
+          <div className="relative inline-block text-left">
             <button
               onClick={handleMenuToggle}
               className="group relative inline-flex items-center px-3 py-2 border bg-gray-50 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700 dark:hover:text-white text-gray-400 rounded-lg text-base font-medium default-transition default-focus"
@@ -100,7 +98,7 @@ const NavProjects = () => {
           </div>
         </div>
         {isMenuOpen && (
-          <div className="transform scale-100 opacity-100">
+          <div className="transform scale-100 opacity-100" ref={menuRef}>
             <div className="absolute w-[calc(100vw-1rem)] sm:w-56 mt-2 bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop-filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-md shadow-lg divide-y divide-gray-100 dark:divide-gray-500 focus:outline-none origin-top-right right-0">
               <div className="py-2">
                 <button
@@ -177,7 +175,7 @@ const NavProjects = () => {
           </div>
         )}
         {isMenuOpen2 && (
-          <div className="transform scale-100 opacity-100">
+          <div className="transform scale-100 opacity-100" ref={menuRef}>
             <div className="absolute w-[calc(100vw-1rem)] sm:w-56 mt-2 bg-gray-50 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 backdrop-filter backdrop-blur-sm border border-gray-100 dark:border-gray-500 rounded-md shadow-lg divide-y divide-gray-100 dark:divide-gray-500 focus:outline-none origin-top-left left-0">
               <div className="py-2">
                 {" "}
