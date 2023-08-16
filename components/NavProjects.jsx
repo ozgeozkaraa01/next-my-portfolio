@@ -1,8 +1,24 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useTheme } from "next-themes";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { FiSettings, FiGithub, FiTwitter } from "react-icons/fi";
 import Link from "next/link";
+
+const useClickOutside = (ref, handler) => {
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (ref.current && !ref.current.contains(event.target)) {
+        handler();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [ref, handler]);
+};
 
 const NavProjects = () => {
   const { theme, setTheme } = useTheme();
@@ -38,6 +54,15 @@ const NavProjects = () => {
     }, 1500);
   };
 
+  const handleOutsideClick = () => {
+    setIsMenuOpen(false);
+    setIsMenuOpen2(false);
+  };
+
+  const menuRef = useRef(null);
+
+  useClickOutside(menuRef, handleOutsideClick);
+
   useEffect(() => {
     const handleClick = () => {
       if (isSoundOn) {
@@ -65,7 +90,7 @@ const NavProjects = () => {
               <HiMenuAlt1 />
             </button>
           </div>
-          <div className="relative inline-block text-left">
+          <div className="relative inline-block text-left" ref={menuRef}>
             <button
               onClick={handleMenuToggle}
               className="group relative inline-flex items-center px-3 py-2 border bg-gray-50 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:hover:bg-gray-700 dark:hover:text-white text-gray-400 rounded-lg text-base font-medium default-transition default-focus"
