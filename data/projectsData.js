@@ -36,4 +36,12 @@ export const projectsData = [
     url: "https://bookmark-frontend-mentor.vercel.app/",
     github: "https://github.com/ozgeozkaraa01/bookmark-frontend-mentor",
   },
+  {
+    emoji: "🎃",
+    title: "next-movie-app",
+    description:
+      "An IMDb clone built with Next.js is a modern web platform that replicates the features of IMDb.",
+    url: "https://movie-app-self-chi.vercel.app/",
+    github: "https://github.com/ozgeozkaraa01/movie-app",
+  },
 ];
