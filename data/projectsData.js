@@ -44,4 +44,11 @@ export const projectsData = [
     url: "https://movie-app-self-chi.vercel.app/",
     github: "https://github.com/ozgeozkaraa01/movie-app",
   },
+  {
+    emoji: "🌒",
+    title: "next-responsive-website",
+    description: "Website made using tailwindcss and framer motion.",
+    url: "https://next-responsive-website.vercel.app/",
+    github: "https://github.com/ozgeozkaraa01/next-responsive-website",
+  },
 ];
