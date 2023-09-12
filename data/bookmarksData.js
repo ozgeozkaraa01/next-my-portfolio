@@ -278,4 +278,22 @@ export const bookmarksData = [
     url: "https://fffuel.co/css-selectors/",
     category: "Frontend",
   },
+  {
+    img: "https://react-hot-toast.com/social-image.png",
+    title: "react-hot-toast",
+    description:
+      "Add beautiful notifications to your React app with react-hot-toast.",
+    link: "react-hot-toast.com",
+    url: "https://react-hot-toast.com/",
+    category: "Frontend",
+  },
+  {
+    img: "https://www.tailwind-variants.org/banner.png",
+    title: "Tailwind variants",
+    description:
+      "The power of Tailwind combined with a first-class variant API.",
+    link: "tailwind-variants.org",
+    url: "https://www.tailwind-variants.org/",
+    category: "Tailwind CSS",
+  },
 ];
