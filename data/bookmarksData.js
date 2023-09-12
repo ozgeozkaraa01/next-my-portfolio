@@ -260,4 +260,13 @@ export const bookmarksData = [
     url: "https://tailwindcss-radix.vercel.app/",
     category: "Tailwind CSS",
   },
+  {
+    img: "https://pbs.twimg.com/media/F43tqLjWYAA0pyM?format=jpg&name=small",
+    title: "Cinderella Complex: Contemporary Women's Fear of Independence",
+    description:
+      "The subject of the book Cinderella Complex: Contemporary Women's Fear of Independence revolves around the fear of independence among modern women. The author examines women's experiences related to societal expectations, gender roles, and self-esteem, while addressing various perspectives on this issue. The book critically discusses the barriers that women face in discovering their own strengths and potentials and calls for societal change.",
+    link: "cinderella-complex",
+    url: "https://www.amazon.com/-/he/Colette-Dowling/dp/6056934845",
+    category: "Books",
+  },
 ];
