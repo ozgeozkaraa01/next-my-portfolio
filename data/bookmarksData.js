@@ -269,4 +269,13 @@ export const bookmarksData = [
     url: "https://www.amazon.com/-/he/Colette-Dowling/dp/6056934845",
     category: "Books",
   },
+  {
+    img: "https://fffuel.co/images/covers/css-selectors.png",
+    title: "CSS Selectors: A Visual Guide & Reference",
+    description:
+      "Visual guide to CSS selectors, including pseudo-classes, functional pseudo-classes and pseudo-elements.",
+    link: "fffel.co",
+    url: "https://fffuel.co/css-selectors/",
+    category: "Frontend",
+  },
 ];
